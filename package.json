@@ -1,0 +1,21 @@
+{
+  "name": "calculator-app-test",
+  "version": "1.0.0",
+  "description": "To run calculator app tests in a docker container",
+  "main": "lib\\index.js",
+  "scripts": {
+    "test": "mocha ./lib/tests/calTest.test.js --timeout 10000000",
+    "build": "tsc 1>&2"
+  },
+  "author": "Hamza",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/mocha": "^5.2.7",
+    "@types/chai": "^4.2.14"
+  },
+  "dependencies": {
+    "mocha": "^8.4.0",
+    "chai": "^4.1.2"
+  }
+}
