@@ -1,2 +1,1 @@
-# MochaTestsOnDockerContainer
-MochaTestsOnDockerContainer
+# TO RUN THE SAMPLE UNIT TEST ON DOCKER CONTAINER
